@@ -3,8 +3,8 @@ from colorama import Fore
 from colorama import Style
 import os
 os.system("clear")
-
 colorama.init()
+
 print(Fore.YELLOW + Style.BRIGHT + "-----------------------------------------------------" + Style.RESET_ALL)
 print(Fore.CYAN + Style.BRIGHT + "    Program ini akan mengurutkan angka yang anda\n   masukkan dari terkecil ke terbesar menggunakan\n               algoritma bubble sort." + Style.RESET_ALL)
 print(Fore.YELLOW + Style.BRIGHT + "-----------------------------------------------------" + Style.RESET_ALL)
